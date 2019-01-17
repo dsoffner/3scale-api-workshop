@@ -1,4 +1,4 @@
-# Lab 1 - Updated by dsoffner on 17/1
+# Lab 1
 
 ## API Design
 

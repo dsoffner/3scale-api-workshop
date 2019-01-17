@@ -38,7 +38,7 @@ Check the latest [Slides](https://docs.google.com/presentation/d/1nizTZlzuO7AqQk
 
 Session 1: API Design, Deployment and Management
 
-* [01. API Design](docs/labs/lab01/#lab-1) - Create an OpenAPI Specification-based Contract
+* [01. API Design](docs/labs/lab01/#lab-1) - Create an OpenAPI Specification-based Contract - **updated by Daniel Soffner on 17/1**
 * [02. API Deployment](docs/labs/lab02/#lab-2) - Deploying APIs to OpenShift
 * [03. API Management](docs/labs/lab03/#lab-3) - Take Control of APIs
 
