@@ -87,9 +87,9 @@ openshift
 
 1. Create a brand new API by completing the following information:
 
-    * Type: **Open API 3.0.1**
     * Name: **Locations-UserX** (Replace *X* with your user number)
     * Description: **Locations API**
+    * Type: **Open API 3.0.2**
 
     ![design-create-api](images/design-04.png "Create API")
 
