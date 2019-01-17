@@ -105,14 +105,14 @@ You are now in the main screen to edit your APIs. Different from other API edito
 
 Let's start crafting your API.
 
-1. Time to prepare our data definitions for the API. Click on the **Add a definition** link under the *Definitions*.
+1. Time to prepare our data definitions for the API. Click on the **Add a data type** link under the *Definitions*.
 
-    ![design-add-definition](images/design-15.png "Add Definition")
+    ![design-add-type](images/design-15.png "Add a data type")
 
-1. Fill in the *Name* with the **location** value. Expand the *FROM EXAMPLE (optional)* to paste the following example:
+1. Fill in the *Name* with the **location** value. Paste the following example into the **Enter JSON Example** textbox and click on **Save**:
 
     * Name: **location**
-    * FROM EXAMPLE:
+    * Enter JSON Example:
 
         ```bash
         {
@@ -169,11 +169,11 @@ Let's start crafting your API.
 
     ![design-add-response-code](images/design-11.png "Add Response Code")
 
-1. Scroll down to the bottom of the page. Move your mouse over the **200 OK** response to enable the options. Click on the **Edit** button to edit the response details.
+1. Scroll down to the bottom of the page. Move your mouse over the **200 OK** response and expand **No response media types defined**.
 
     ![design-edit-response](images/design-12.png "Edit Response")
 
-1. Scroll down again to the bottom of the page. Click on the **Add Media Type** button to define and configure the response media type.
+1. Click on the **Add Media Type** button to define and configure the response media type.
 
     ![design-add-media](images/design-13.png "Add Media Type")
 
@@ -238,10 +238,6 @@ Let's start crafting your API.
     ![design-response-example](images/design-20.png "Response Example")
 
 1. Click the **Add** button.
-
-1. Click the **Done** button to finish the response editing.
-
-    ![design-response-done](images/design-21.png "Finish Response")
 
 ### Step 4: Download the API definition
 
