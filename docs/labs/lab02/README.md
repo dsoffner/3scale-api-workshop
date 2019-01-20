@@ -83,7 +83,7 @@ openshift
 
     ![03-browse-catalog](images/deploy-03.png "Catalog")
 
-1. Scroll down the page and search for the **Red Hat Fuse 7.0 Camel with Spring Boot** template. Click on the link.
+1. Scroll down the page and search for the **Red Hat Fuse 7.0 Camel with Spring Boot** template. Make sure you select version 7.0, not a newer version. Click on the link.
 
     ![04-Fuse70-template](images/deploy-04.png "Template")
 
@@ -94,7 +94,7 @@ openshift
 1. Fill in the configuration information with your API implementation github repo details:
 
     * Application Name: **location-service**
-    * Git Repository URL: **https://github.com/jbossdemocentral/3scale-api-workshop**
+    * Git Repository URL: **https://github.com/dsoffner/3scale-api-workshop**
     * Git Repository context: **/projects/location-service**
     * Git Reference: **master**
 
