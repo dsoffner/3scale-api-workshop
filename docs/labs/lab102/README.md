@@ -123,15 +123,15 @@ Follow this instructions to set up the repository.
 
     ![mock-openshift-login](images/mock-09.png "Openshift Login")
 
-1. You are now in the main Microcks page. Click the **Jobs** button to access the Jobs page.
+1. You are now in the main Microcks page. Click the **Importers** button to access the Jobs page.
 
     ![mock-jobs](images/mock-11.png "Job")
 
-1. Click the **ADD JOB...** button to create your first job.
+1. Click the **Create** button to create your first job.
 
     ![mock-add-job](images/mock-12.png "Add Job")
 
-1. In the Add Job dialog, type in the following information replacing **X** with your user number and GUID with your working [environment](#environment):
+1. In the **Create a new Job dialog**, type in the following information replacing **X** with your user number and GUID with your working [environment](#environment):
 
     * Name: **Locations-UserX**
     * Repository URL: **http://gogs.apps.GUID.openshiftworkshop.com/userX/locations-api/raw/master/Locations-UserX.yaml**
@@ -140,11 +140,19 @@ Follow this instructions to set up the repository.
 
     ![mock-job-details](images/mock-13.png "Job Details")
 
-1. After your job is created, click the **ACTION** menu and select the **Activate** option.
+1. In the **Authentication options** window click **Next**.
+
+    ![mock-job-details-2](images/mock-13a.png "Activate Job")
+
+1. In the **Review** window click **Create**.
+
+    ![mock-job-details-3](images/mock-13b.png "Activate Job")
+
+1. After your job is created, click the context menu and select the **Activate** option.
 
     ![mock-job-activate](images/mock-14.png "Activate Job")
 
-1. Repet the last step, but now select the **Start** option. This will start the synchronization job.
+1. Repeat the last step, but now select the **Force Import** option. This will start the synchronization job.
 
     ![mock-job-start](images/mock-15.png "Start Job")
 
@@ -158,7 +166,7 @@ Follow this instructions to set up the repository.
 
     ![mock-job-service](images/mock-17.png "Job Service")
 
-1. Click **OK** to dismiss the dialog.
+1. Click **Close** to dismiss the dialog.
 
 1. This is your new REST mock service based on the OpenAPI definition you just loaded to Microcks. Click the **Operation GET /locations** link to check the example under that operation.
 
