@@ -151,11 +151,11 @@ Let's start crafting your API.
 
     *By default, Apicurio suggest a series of available operations for your new path*.
 
-1. Click **Create Operation** under the *GET* operation.
+1. Click **Add Operation** under the *GET* operation.
 
     ![design-create-operation](images/design-08.png "Create Operation")
 
-1. Click on the green **GET** operation button to edit the operation information.
+1. Make sure the green **GET** operation button is selected to edit the operation information.
 
     ![design-get-operation](images/design-09.png "Get Operation")
 
@@ -169,10 +169,6 @@ Let's start crafting your API.
 
     ![design-add-response-code](images/design-11.png "Add Response Code")
 
-1. Scroll down to the bottom of the page. Move your mouse over the **200 OK** response and expand **No response media types defined**.
-
-    ![design-edit-response](images/design-12.png "Edit Response")
-
 1. Click on the **Add Media Type** button to define and configure the response media type.
 
     ![design-add-media](images/design-13.png "Add Media Type")
@@ -181,7 +177,7 @@ Let's start crafting your API.
 
     ![design-media-json](images/design-14.png "Media Type JSON")
 
-1. Click on the *Choose Type* combo box to display the different types. First select **Array**.
+1. Expand the "No Type" section and click on the *Choose Type* combo box to display the different types. First select **Array**.
 
     ![design-location-type](images/design-18.png "Location Type")
 
@@ -189,7 +185,7 @@ Let's start crafting your API.
 
     ![design-location-type](images/design-18a.png "Location Type")
 
-1. Click the **Add an example** link to add a Response Example. 
+1. Expand the "No examples defined" section and click the **Add an example** link to add a Response Example. 
 
     *This will be useful to mock your API in the next lab*.
 
