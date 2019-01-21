@@ -79,7 +79,7 @@ Follow this instructions to set up the repository.
 
 1. Fill in the information of the repository migration with the following values:
 
-    * Clone Address: **https://github.com/jbossdemocentral/3scaleworkshop-wwwpage.git**
+    * Clone Address: **https://github.com/dsoffner/3scaleworkshop-wwwpage.git**
     * Owner: **UserX**
     * Repository Name: **www-page**
 
@@ -113,7 +113,7 @@ International Inc web development create a Node.js application for the company h
 
     ![02-user-project](images/deploy-02.png "User Project")
 
-1. From your main project page, click **Browse Catalog**.
+1. From your main project page, click on **Add to Project** and **Browse Catalog**.
 
     ![03-browse-catalog](images/deploy-03.png "Catalog")
 
@@ -297,9 +297,11 @@ In this step, we will edit the code provided by development to add keycloak. Key
 
     ```bash
     // Keycloak Ajax Start
+
     headers: {
          'Authorization': 'Bearer ' + token
     },
+
     // Keycloak Ajax End
     ```
 
@@ -349,9 +351,10 @@ Redirect URLs are a critical part of the OAuth flow. After a user successfully a
 
 1. Click on the **CLIENT_ID** link to view the details.
 
+    *Remember to replace CLIENT_ID with the one you got in the [API Security Lab](../lab04/#step-4-create-a-test-app). It will easily identificable as its and hexadecimal name*.
+
     ![24-client-application](images/consume-24.png "Client Application")
 
-    *Remember to replace CLIENT_ID with the one you got in the [API Security Lab](../lab04/#step-4-create-a-test-app). It will easily identificable as its and hexadecimal name*.
 
 1. Scroll down, type in and select the following options in the application configuration:
 
