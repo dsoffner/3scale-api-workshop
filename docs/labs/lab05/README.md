@@ -105,7 +105,7 @@ openshift
 
 1. Update the API call examples to reflect your real Fuse API calls.
 
-    *Use your production base url and add your defined methods. Dont worry if you don't have the "real" output, it won't affect the rest of the lab. You can also copy and paste the [example](https://raw.githubusercontent.com/jbossdemocentral/3scale-api-workshop/master/docs/labs/lab05/support/homepage.example) we prepared for you*.
+    *Use your production base url and add your defined methods. Dont worry if you don't have the "real" output, it won't affect the rest of the lab. You can also copy and paste the [example](https://raw.githubusercontent.com/dsoffner/3scale-api-workshop/master/docs/labs/lab05/support/homepage.example) we prepared for you*.
 
 1. Click the **Publish** button.
 
@@ -115,7 +115,7 @@ openshift
 
 ### Step 2: Register New Accounts Using Developer Portal
 
-1. Take the place of one of your developers and signup for the **Basic** plan.
+1. Before continuing click the black x in the right corner of the screen to remove the pane on the right.  Then take the place of one of your developers and signup for the **Basic** plan.
 
     ![16a-signup-limited.png](images/16a-signup-limited.png)
 
@@ -155,7 +155,7 @@ openshift
 
     ![16e-ingress-code.png](images/16e-ingress-code.png)
 
-1. Sign in to the portal.
+1. Sign in to the portal with the e-mail and password you specified during the earlier sign up process.
 
     ![16f-dev-signin.png](images/16f-dev-signin.png)
 

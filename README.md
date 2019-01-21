@@ -17,7 +17,7 @@ The workshop is intended to be delivered in person, but will provide enough guid
 
 ### Pre-requisites
 
-* Knowledge of the current version of the OpenAPI specification: [OpenAPI Specification 3.0.1](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.1.md)
+* Knowledge of the current version of the OpenAPI specification: [OpenAPI Specification 3.0.2](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.2.md)
 * Internet access with no blacklist filtering on:
   * *.openshiftworkshop.com
   * *.onlinecurl.com
@@ -40,11 +40,11 @@ Session 1: API Design, Deployment and Management
 
 * [01. API Design](docs/labs/lab01/#lab-1) - Create an OpenAPI Specification-based Contract - **updated by Daniel Soffner on 17/1**
 * [02. API Deployment](docs/labs/lab02/#lab-2) - Deploying APIs to OpenShift - **updated by Daniel Soffner on 21/1**
-* [03. API Management](docs/labs/lab03/#lab-3) - Take Control of APIs
+* [03. API Management](docs/labs/lab03/#lab-3) - Take Control of APIs - **updated by Daniel Soffner on 21/1**
 
 Session 2: API Security and Usage
 
-* [04. API Security](docs/labs/lab04/#lab-4) - Securing APIs with OpenID Connect and Red Hat Single Sign On
+* [04. API Security](docs/labs/lab04/#lab-4) - Securing APIs with OpenID Connect and Red Hat Single Sign On - **updated by Daniel Soffner on 21/1**
 * [05. API Developers](docs/labs/lab05/#lab-5) - Discovering APIs from Developer Portal
 * [06. API Consumption](docs/labs/lab06/#lab-6) - Connect Applications and APIs
 
