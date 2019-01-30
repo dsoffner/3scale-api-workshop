@@ -105,7 +105,7 @@ You are now in the main screen to edit your APIs. Different from other API edito
 
 Let's start crafting your API.
 
-1. Time to prepare our data definitions for the API. Click on the **Add a data type** link under the *Definitions*.
+1. Time to prepare our data definitions for the API. Click on the **Add a data type** link under the *Data Types*.
 
     ![design-add-type](images/design-15.png "Add a data type")
 
@@ -169,7 +169,7 @@ Let's start crafting your API.
 
     ![design-add-response-code](images/design-11.png "Add Response Code")
 
-1. Click on the **Add Media Type** button to define and configure the response media type.
+1. Click on the **Add a media type** button to define and configure the response media type.
 
     ![design-add-media](images/design-13.png "Add Media Type")
 
