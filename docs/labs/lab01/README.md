@@ -165,11 +165,11 @@ Let's start crafting your API.
 
     ![design-add-response](images/design-10.png "Add Response")
 
-1. Leave the **200** option selected in the  *Response Status Code* combo box and click on **Add**.
+1. Leave the **200** option selected in the *Response Status Code* combo box and click on **Add**.
 
     ![design-add-response-code](images/design-11.png "Add Response Code")
 
-1. Click on the **Add a media type** button to define and configure the response media type.
+1. Click on the **Add a media type** button under *Response Body* to define and configure the response media type.
 
     ![design-add-media](images/design-13.png "Add Media Type")
 
