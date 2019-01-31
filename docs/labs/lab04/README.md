@@ -185,7 +185,7 @@ openshift
 
     ![07-update-environment.png](images/07-update-environment.png "Update Environment")
 
-1. Promote to Production by clicking the **Promote to Production** button.
+1. Promote to Production by clicking the **Promote v.2 to Production** button.
 
     ![08a-promote-production.png](images/08a-promote-production.png "Update Environment")
 

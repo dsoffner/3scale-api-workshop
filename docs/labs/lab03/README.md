@@ -129,7 +129,7 @@ Your 3scale Admin Portal provides access to a number of configuration features.
 
 1. Click on **Create Method**.
 
-1. Click on the **Add mapping rule** link
+1. Click on the **Add a mapping rule** link
 
     ![07b-add-mapping-rule.png](images/07b-add-mapping-rule.png)
 

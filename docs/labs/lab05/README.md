@@ -87,7 +87,7 @@ openshift
 
     ![12-main-layout.png](images/12-main-layout.png)
 
-1. First look for the **navbar** section of the main HTML. Replace the **{{ provider.name }}** for the shadowman image link:
+1. First look for the **navbar** section of the main HTML. Replace the **{{  provider.name }}** for the shadowman image link:
 
     `<img src="https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/logo.png" alt="{{ provider.name }}">`
 
@@ -115,7 +115,7 @@ openshift
 
 ### Step 2: Register New Accounts Using Developer Portal
 
-1. Before continuing click the black x in the right corner of the screen to remove the pane on the right.  Then take the place of one of your developers and signup for the **Basic** plan.
+1. Before continuing click the black x in the blue circle in the right corner of the screen to remove the pane on the right.  Then take the place of one of your developers and signup for the **Basic** plan.
 
     ![16a-signup-limited.png](images/16a-signup-limited.png)
 

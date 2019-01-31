@@ -142,7 +142,7 @@ International Inc web development create a Node.js application for the company h
 
     _If you clicked the **Close** button, click **Overview** in the left side menu to review the deployment status_.
 
-1. From your overview page, click the white space next to the **www** link to expand the deployment information.
+1. From your overview page, click the white space next to the **www** link to expand the deployment information.  Wait until the deployment has finished and you see a blue circle.
 
     ![09-deployment-config](images/deploy-09.png "Deployment Config")
 
@@ -309,7 +309,7 @@ In this step, we will edit the code provided by development to add keycloak. Key
 
     ![18-commit-changes](images/consume-18.png "Commit Changes")
 
-1. Because we are using self signed certificates, you will need to accept the certificate for the secured endpoint. Open a new browser tab or window and navigate to:
+1. Because we are using self signed certificates, you will need to accept the certificate for the secured endpoint. Open a new Incognito window in your browser and navigate to:
 
     ```bash
     https://location-userX-api-staging.amp.apps.GUID.openshiftworkshop.com/locations
@@ -326,6 +326,8 @@ In this step, we will edit the code provided by development to add keycloak. Key
     ```bash
     Authentication parameters missing
     ```
+1. Leave the Incognito window open for the final test at the end of this lab.
+
 
 ### Step 3: Update Red Hat Single Sign On Application Callback
 
@@ -415,7 +417,7 @@ OpenShift let you automatically redeploy your changes when you setup a Continuou
 
     ![21-build-complete](images/consume-21.png "Build Complete")
 
-1. Refresh the browser tab where you opened the International Inc web page or click the route URL to check out the changes.
+1. In the Incognito tab you opened earlier (and where you accepted the self-signed certificate) type the link of the International Inc web page (under **Routes - External Traffic**).
 
     ![22-updated-app](images/consume-22.png "Updated App")
 
