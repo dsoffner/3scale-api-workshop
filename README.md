@@ -48,8 +48,8 @@ Session 2: API Security and Usage
 * [05. API Developers](docs/labs/lab05/#lab-5) - Discovering APIs from Developer Portal
 * [06. API Consumption](docs/labs/lab06/#lab-6) - Connect Applications and APIs
 
-<!-- ### Optional Labs -->
-<!-- * [A. API Mocking](docs/labs/lab102/#lab-102) - Bring your APIs to Life -->
+### Optional Labs
+* [A. API Mocking](docs/labs/lab102/#lab-102) - Bring your APIs to Life
 
 We recommend you to begin your journey with the first lab [API Design - Create an OpenAPI Specification-based Contract](docs/labs/lab01/#lab-1)
 
